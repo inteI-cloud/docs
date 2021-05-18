@@ -7,10 +7,10 @@ versions:
   enterprise-server: '>=2.22'
   github-ae: '*'
 ---
-
+{% echo data reusables.package_registry.packages-ghes-release-stage %}
 {% data reusables.package_registry.packages-ghes-release-stage %}
 {% data reusables.package_registry.packages-ghae-release-stage %}
-
+{% echo link_in_list /publishing-and-installing-a-package-with-github-actions %}
 {% link_in_list /publishing-and-installing-a-package-with-github-actions %}
 {% link_in_list /example-workflows-for-publishing-a-package %}
 {% link_in_list /about-github-packages-and-github-actions %}
